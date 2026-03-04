@@ -1,0 +1,27 @@
+# --- R Specific ---
+.Rhistory
+.RData
+.Rpath
+.Ruserdata
+.Rapp.history
+
+# --- RStudio Specific ---
+.Rproj.user/
+*.Rproj 
+
+# --- Data & Output (Crucial for GitHub) ---
+*.csv
+*.rds
+*.Robj
+/data/temp/
+
+# --- Documentation & Build ---
+.Rcheck/
+/.build/
+vignettes/*.html
+vignettes/*.pdf
+
+# --- System Files ---
+.DS_Store
+Thumbs.db
+desktop.ini
